@@ -7,7 +7,7 @@ const Banner = () => {
             <h2 className='confirm_selection text-4xl max-sm:text-2xl uppercase font-bold'>
             Elon's stable coin
             </h2>
-            <div className='flex gap-8 justify-center text-base max-sm:text-sm text-nowrap uppercase'>
+            <div className='flex gap-8 justify-center text-base max-sm:text-xs text-nowrap uppercase'>
                 <div>Hodl XMooney</div>
                 <div>Receive Free sol</div>
             </div>

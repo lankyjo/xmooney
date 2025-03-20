@@ -6,14 +6,17 @@ const Narrative = () => {
       </div>
 
       <div className="space-y-5">
-        <h3 className="text-2xl font-bold">THE NARATIVE</h3>
-        <p className="max-w-[320px]">
-          X Payments got renamed to XMooney. Last year Elon had mentioned in
-          interviews that he intends X to eventually offer other financial
-          services such as loans, so it may have been that the prior name didn't
-          accurately convey that.
+        <h3 className="text-2xl font-bold font-plat">THE NARATIVE</h3>
+        <p className="max-w-[400px]">
+          X Payments has rebranded to X Money. Elon previously mentioned that X
+          aims to expand beyond payments into a full financial ecosystem,
+          including loans and other financial services. The new name reflects
+          this broader vision. Hold XMooney and earn SOL. A new era of digital
+          finance is unfolding, rewarding those who embrace it.
         </p>
-        <button className="text-center py-3 px-6 text-white bg-gray-900"><a href="/">Learn more</a></button>
+        <button className="text-center py-3 px-6 text-white bg-gray-900">
+          <a href="/">Learn more</a>
+        </button>
       </div>
     </section>
   );

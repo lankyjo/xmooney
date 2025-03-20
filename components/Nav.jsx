@@ -17,7 +17,7 @@ const Nav = () => {
     <nav className=" p-5 max-w-7xl relative w-full flex justify-end max-md:justify-center gap-3">
         {
             links.map((link)=>(
-                <a className="confirm_selection" key={link.name} href={link.linktTo}>{link.name}</a>
+                <a className="confirm_selection font-tt text-xl max-sm:text-lg" key={link.name} href={link.linktTo}>{link.name}</a>
             ))
         }
     </nav>

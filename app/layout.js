@@ -10,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="font-neuro">
         <div className="relative bg-black w-full h-full min-h-svh overflow-hidden">
           <VideoBackground />
           <main className="relative z-10">{children}</main>
