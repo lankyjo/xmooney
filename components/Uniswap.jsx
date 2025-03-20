@@ -6,8 +6,7 @@ const Uniswap = () => {
         <h5 className='font-plat text-5xl'>SWAP</h5>
       <iframe
         src="https://app.uniswap.org/#/swap?inputCurrency=SOL&outputCurrency=BASE"
-        className='w-[600px] h-[700px] max-sm:w-full'
-        style={{ border: "none", borderRadius: "10px" }}
+        className='w-[600px] h-[700px] border-2 max-sm:w-full rounded-lg'
       />
     </div>
   )
