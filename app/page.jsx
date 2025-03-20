@@ -15,7 +15,7 @@ const HomePage = () => {
     <Banner/>
     <Tokenomics/>
     <NewsArticle/>
-    <footer className="bg-slate-950 max-sm:text-xs flex justify-between p-5">
+    <footer className="bg-slate-950 max-sm:text-[10px] flex justify-between p-5">
       <div>© 2025. All rights reserved.</div>
       <div>support@xmooneyeth.com</div>
     </footer>
