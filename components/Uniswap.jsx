@@ -10,8 +10,8 @@ const Uniswap = () => {
 
       {/* Loader: Visible when loading is true */}
       {loading && (
-        <div className="flex items-center justify-center w-full h-full border-2 rounded-lg bg-gray-100">
-          <p className="animate-pulse text-gray-500">Loading swap interface...</p>
+        <div className="flex items-center justify-center w-full h-full border-2 rounded-lg">
+          <p className="animate-pulse text-gray-300 confirm_selection">Loading swap interface...</p>
         </div>
       )}
 
