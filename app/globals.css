@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.confirm_selection {
+  animation: glow .5s infinite alternate;
+}
+
+@keyframes glow {
+  to {
+      text-shadow: 0 0 20px wheat;
+  }
+}
