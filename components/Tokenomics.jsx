@@ -11,7 +11,7 @@ const Tokenomics = () => {
                     distance: "50px",
                     easing: "ease-in-out",
                     origin: "bottom",
-                    interval: 200, // Stagger effect
+                    interval: 100, // Stagger effect
                     reset: true,
                 });
             });
