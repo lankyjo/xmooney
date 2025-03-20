@@ -1,5 +1,6 @@
 "use client";
 import { useEffect } from "react";
+import Uniswap from "./Uniswap";
 
 const Banner = () => {
     useEffect(() => {
@@ -18,7 +19,7 @@ const Banner = () => {
     }, []);
 
     return (
-        <section className="py-16 px-5 flex justify-center items-center">
+        <section className="py-16 px-5 flex flex-col justify-center items-center">
             <div className="max-w-xl w-full flex flex-col gap-y-10 text-center p-16 bg-gray-400/20 backdrop-blur-lg rounded-lg">
                 <h2 className="confirm_selection text-4xl max-sm:text-2xl uppercase font-bold reveal">
                     Elon's stable coin
@@ -28,6 +29,8 @@ const Banner = () => {
                     <div>Receive Free SOL</div>
                 </div>
             </div>
+
+            <Uniswap/>
         </section>
     );
 };
