@@ -2,11 +2,11 @@ const Nav = () => {
     const links = [
         {
           name: 'Twitter',
-          linktTo: '/'
+          linktTo: 'https://x.com/Xmooneysol'
         },
         {
           name: 'Telegram',
-          linktTo: '/'
+          linktTo: 'https://t.me/Xmooneysol'
         },
         {
           name: 'Contact us',

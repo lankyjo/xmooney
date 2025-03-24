@@ -39,10 +39,10 @@ const Hero = () => {
                 </div>
 
                 <div id="ctas" className="w-fit max-md:mx-auto space-x-3 reveal">
-                    <a className="border-2 border-white uppercase bg-gray-900 py-3 px-5" href="">
+                    <a className="border-2 border-white uppercase bg-gray-900 py-3 px-5" href="#swap">
                         BUY NOW
                     </a>
-                    <a className="border-2 border-white uppercase bg-gray-900 py-3 px-5" href="/">
+                    <a className="border-2 border-white uppercase bg-gray-900 py-3 px-5" href="#chart">
                         CHART
                     </a>
                 </div>

@@ -29,8 +29,10 @@ const Banner = () => {
                     <div>Receive Free SOL</div>
                 </div>
             </div>
-
-            <Uniswap/>
+            <div id="charts" className="flex justify-center items-center gap-4 max-sm:flex-col">
+            <Uniswap link={"https://jup.ag/swap/SOL-BASE?inputCurrency=SOL&outputCurrency=BASE"} text={'swap'} id={'swap'}/>
+            <Uniswap link={"https://www.tradingview.com/widgetembed/?symbol=BINANCE:SOLUSDT&theme=dark&style=1"} text={'chart'} id={'chart'}/>
+            </div>    
         </section>
     );
 };
