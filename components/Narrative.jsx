@@ -18,7 +18,7 @@ const Narrative = () => {
     }, []);
 
     return (
-        <section className="bg-white max-md:flex-col-reverse max-md:px-3 max-md:gap-10 max-md:text-center py-10 px-52 flex text-black justify-between items-center">
+        <section id="story" className="bg-white max-md:flex-col-reverse max-md:px-3 max-md:gap-10 max-md:text-center py-10 px-52 flex text-black justify-between items-center">
             <div className="max-w-80 reveal">
                 <img src="/nara.avif" />
             </div>

@@ -10,7 +10,7 @@ const Nav = () => {
         },
         {
           name: 'Story',
-          linktTo: '/'
+          linktTo: '#story'
         },
       ]
   return (
