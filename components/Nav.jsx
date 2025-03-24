@@ -9,7 +9,7 @@ const Nav = () => {
           linktTo: 'https://t.me/Xmooneysol'
         },
         {
-          name: 'Contact us',
+          name: 'Story',
           linktTo: '/'
         },
       ]
