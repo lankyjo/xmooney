@@ -30,7 +30,7 @@ const Tokenomics = () => {
                     <TokenItems image={'/supply-img.avif'} text={'Supply - 1B $XMOONEY'} />
                 </div>
                 <div className="reveal">
-                    <TokenItems image={'/tax-img.avif'} text={'10% TAX (5% Rewards 5% Marketin)'} />
+                    <TokenItems image={'/tax-img.avif'} text={'10% TAX (5% Rewards 5% Marketing)'} />
                 </div>
                 <div className="reveal">
                     <TokenItems image={'/renounced-img.avif'} text={'RENOUNCED OWNERSHIP'} />
