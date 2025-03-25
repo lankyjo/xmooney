@@ -8,7 +8,7 @@ const Hero = () => {
     { name: "solscan", link: "/" },
     { name: "dexscreener", link: "/" },
     { name: "phantom", link: "/" },
-    { name: "Binance wallet", link: "/" },
+    { name: "dextools", link: "/" },
   ];
 
   useEffect(() => {
