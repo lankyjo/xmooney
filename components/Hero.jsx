@@ -6,7 +6,7 @@ const Hero = () => {
         { name: "coinMarketcap", link: "/" },
         { name: "coinGecko", link: "/" },
         { name: "solscan", link: "/" },
-        { name: "linktree", link: "/" },
+        { name: "dexscreener", link: "/" },
         { name: "phantom", link: "/" },
         { name: "Binance wallet", link: "/" },
     ];
@@ -30,8 +30,9 @@ const Hero = () => {
     return (
         <section className="flex max-md:flex-col max-md:gap-16 items-center justify-center py-5 px-5 pt-9">
             <div className="space-y-5">
-                <div id="title" className="font-bold text-7xl max-sm:text-5xl text-center confirm_selection reveal">
-                    <h1>XMOONEY</h1>
+                <div id="title" className="font-bold text-center confirm_selection reveal">
+                    <h1 className="text-7xl max-sm:text-5xl">XMOONEY</h1>
+                    <p>Earn Solana rewards by holding XMooney</p>
                 </div>
 
                 <div id="image" className="w-fit max-md:w-96 mx-auto reveal">
