@@ -6,9 +6,9 @@ const Hero = () => {
     { name: "coinMarketcap", link: "/" },
     { name: "coinGecko", link: "/" },
     { name: "solscan", link: "https://solscan.io/token/2fFFByKLegddq9mzT21H5nh5d6L17g4x3D6Vdr3LJoaE" },
-    { name: "dexscreener", link: "/" },
+    { name: "dexscreener", link: "https://dexscreener.com/solana/cyfmv8bz7x8lzv3yshfpfyqdevfaehretamxib1feqzd" },
     { name: "phantom", link: "/" },
-    { name: "dextools", link: "/" },
+    { name: "dextools", link: "https://www.dextools.io/app/en/solana/pair-explorer/CYFmv8bz7x8LzV3ysHFpfYqDevFaEHretaMxiB1FEqzD?t=1743091736557" },
   ];
 
   useEffect(() => {
