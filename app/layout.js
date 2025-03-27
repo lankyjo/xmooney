@@ -1,6 +1,7 @@
 import "./globals.css";
 import VideoBackground from "@/components/VideoBackground";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
   title: "XMooney",
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
           <main className="relative z-10">{children}</main>
         </div>
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
