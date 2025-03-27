@@ -1,5 +1,6 @@
 import "./globals.css";
 import VideoBackground from "@/components/VideoBackground";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   title: "XMooney",
@@ -23,26 +24,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <meta property="og:title" content="XMooney" />
-        <meta
-          property="og:description"
-          content="Welcome to XMooney. A new era of digital finance is unfolding, rewarding those who embrace it. Hold XMooney and earn Sol."
-        />
-        <meta property="og:image" content="/image.webp" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="XMooney" />
-        <meta
-          name="twitter:description"
-          content="Welcome to XMooney. A new era of digital finance is unfolding, rewarding those who embrace it. Hold XMooney and earn Sol."
-        />
-        <meta name="twitter:image" content="/image.webp" />
-      </head>
       <body className="font-neuro">
         <div className="relative bg-black w-full h-full min-h-svh overflow-hidden">
-          <VideoBackground />
+          <VideoBackground className="pointer-events-none" />
           <main className="relative z-10">{children}</main>
         </div>
+        <SpeedInsights />
       </body>
     </html>
   );
