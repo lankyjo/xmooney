@@ -5,7 +5,7 @@ const Hero = () => {
   const links = [
     { name: "coinMarketcap", link: "/" },
     { name: "coinGecko", link: "/" },
-    { name: "solscan", link: "/" },
+    { name: "solscan", link: "https://solscan.io/token/2fFFByKLegddq9mzT21H5nh5d6L17g4x3D6Vdr3LJoaE" },
     { name: "dexscreener", link: "/" },
     { name: "phantom", link: "/" },
     { name: "dextools", link: "/" },
