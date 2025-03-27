@@ -20,7 +20,7 @@ const Narrative = () => {
     return (
         <section id="story" className="bg-white max-md:flex-col-reverse max-md:px-3 max-md:gap-10 max-md:text-center py-10 px-52 flex text-black justify-between items-center">
             <div className="max-w-80 reveal">
-                <img src="/nara.avif" />
+                <img loading="lazy" src="/nara.avif" />
             </div>
 
             <div className="space-y-5">

@@ -22,13 +22,13 @@ const NewsArticle = () => {
             <h5 className="text-center font-bold text-5xl reveal">NEWS ARTICLE</h5>
             <div className="flex gap-4 max-md:flex-col justify-center lg:items-baseline items-center">
                 <article className="reveal">
-                    <img src="forbes.avif" />
+                    <img loading="lazy" src="forbes.avif" />
                 </article>
                 <article className="reveal">
-                    <img src="yahoo.avif" />
+                    <img loading="lazy" src="yahoo.avif" />
                 </article>
                 <article className="reveal">
-                    <img src="cnbc.avif" />
+                    <img loading="lazy" src="cnbc.avif" />
                 </article>
             </div>
         </section>

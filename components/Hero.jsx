@@ -39,7 +39,7 @@ const Hero = () => {
         </div>
 
         <div id="image" className="w-fit max-md:w-96 mx-auto reveal">
-          <img className="w-full h-full object-center" src="/CEO.png" />
+          <img loading="lazy" className="w-full h-full object-center" src="/CEO.png" />
         </div>
 
         <div id="ctas" className="w-fit max-md:mx-auto space-x-3 reveal">
@@ -71,7 +71,7 @@ const Hero = () => {
           className="w-fit mx-auto overflow-hidden rounded-lg reveal"
           id="image"
         >
-          <img className="w-full h-full" src="/ceostate.avif" />
+          <img loading="lazy" className="w-full h-full" src="/ceostate.avif" />
         </div>
 
         <div id="ctas" className="grid gap-3 grid-cols-2 w-fit mx-auto">
